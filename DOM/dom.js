@@ -46,9 +46,9 @@ function mostrarCantidadNumeros (array){
     let resultado= document.createElement ('p');
     resultado.textContent = `El array tiene ${cantidadNumeros} números`;
     document.body.appendChild(resultado);
-
-    mostrarCantidadNumeros(numeros)
 }
+
+mostrarCantidadNumeros(numeros)
 
 // 8. Crea los nodos necesarios para imprimir un formulario.
 
